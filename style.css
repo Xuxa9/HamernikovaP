@@ -1,0 +1,86 @@
+body {
+    color: #242828;
+    background-color: whitesmoke;
+    line-height: 1.6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.menu {
+    margin: 0 10%;
+    padding: 0;
+    color: #313737;
+
+}
+.menu a {
+    display: inline-block;
+    color: #313737;
+    text-decoration: none;
+    padding: 15px 35px;
+}
+
+.menu li {
+    display: inline-block; 
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: white;
+}
+
+header {
+    background-image: url(Foto/Uvodnifoto.jpg);
+    padding: 40px 40px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+overflow: auto;
+}
+
+
+footer {
+    background-color: #242828;
+    color: #e7e7e8;
+    text-align: center;
+    padding: 5px 0;
+}
+
+section {
+    padding: 50px 15%;
+    overflow: auto;
+}
+
+.box {
+    background-color: whitesmoke;
+   padding: 35px 40px;
+   text-align: center;
+   margin: 0;
+   float: left;
+}
+
+.sluzba,
+.omne {
+    background-color: #d4dede;
+}
+
+.fotoomne {
+    float: left;
+   margin-right: 50px;
+   width: 180px;
+   border: 1px solid #242828;
+}
+
+.sluzby {
+    padding: 0 20px;
+    text-align: center;
+    display: inline-block;
+    overflow: auto;
+    margin-left: 20%;
+    
+}
+.fotobubliny {
+    width: 150px;
+    border-radius: 50%;
+}
