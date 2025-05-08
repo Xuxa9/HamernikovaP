@@ -63,13 +63,27 @@ a.button9 {
   }
 
 header {
-    background-image: url(foto/uvodnifotka1.jpg);
     padding: 40px 40px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     overflow: auto;
 } 
+body.home header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(foto/uvodnifotka1.jpg);
+  }
+  body.hratky header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(foto/uvodnihratky1.JPEG);
+  }
+  body.hlidani header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(foto/uvodnihlidani.jpeg);
+  }
+  body.bazen header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(foto/uvodnibazen.JPEG);
+  }
+  body.vanickovani header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(foto/uvodnivanickovani.png);
+  }
 
 header-bazen {
     background-image: url(foto/uvodnibazen.JPEG);
@@ -105,11 +119,13 @@ section {
     display: inline-block;
     color: #313737;
     text-decoration: none;
+    text-align: center;
+
 }
 
 .box2 {
  color: whitesmoke;
- text-shadow: 1px 1px 2px black, 0 0 8px rgba(74, 133, 92, 0.818), 0 0 4px rgba(1, 68, 13, 0.727);
+ text-shadow: 1px 1px 4px black, 0 0 10px rgba(136, 136, 136, 0.681), 0 0 6px rgba(63, 63, 63, 0.727);
    padding: 20px;
    text-align: center;
    margin: 0;
@@ -129,10 +145,11 @@ section {
 }
 
 .sluzby {
-    padding: 0 20px;
-    display: inline-block;
+    padding: 0 10px;
+    display: block;
     overflow: auto;
-    margin-left: 20%;
+    margin-left: 15%;
+
     
 }
 .fotobubliny {
