@@ -152,6 +152,7 @@ section {
    text-align: center;
    margin: 0;
    float: inline-start;
+   width: 236px;
 }
 
 .box a {
@@ -188,6 +189,7 @@ section {
     display: block;
     overflow: auto;
     margin-left: 15%;
+    align-items: center;
 
     
 }
