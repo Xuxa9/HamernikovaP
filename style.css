@@ -198,3 +198,85 @@ section {
     border-radius: 50%;
 
 }
+
+/* galerie certifikaty */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-items: center;
+  }
+  
+  .gallery img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: transform 0.2s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  .lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .lightbox-content {
+    text-align: center;
+    max-width: 90%;
+  }
+  
+  .lightbox img {
+    max-width: 100%;
+    max-height: 80vh;
+    border-radius: 10px;
+  }
+  
+  #caption {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .arrow {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    user-select: none;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+  }
+  
+  .arrow:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .arrow.left {
+    left: 30px;
+  }
+  
+  .arrow.right {
+    right: 30px;
+  }
+  /* galerie konec */
